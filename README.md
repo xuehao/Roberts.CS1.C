@@ -36,10 +36,7 @@ Using the general `Makefile` in the `test-cslib` folder to build the `house.c` p
 
 ```shell
 $ cd .. && cd test-cslib
-$ ls
-house.c Makefile
 $ make house
-cc -I/home/xuehao/root/include/cslib -g -Wall -std=gnu11 -O3    house.c  /home/xuehao/root/lib/cslib.a -lm -o house
 $ ./house
 ```
 
