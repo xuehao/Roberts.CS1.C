@@ -16,7 +16,7 @@ Library sources for the book, *The Art and Science of C*.
     $ cd Roberts.CS1.C && cd cslib
     ```
 
-3. Using `make` to build the library. 执行 `make` 命令，生成库文件。
+3. Use `make` to build the library. 执行 `make` 命令，生成库文件。
 
     ```shell
     $ make
@@ -24,7 +24,7 @@ Library sources for the book, *The Art and Science of C*.
 
     If succeed, you'll find a folder call `root`. 如果成功，此时会生成一个 `root` 文件夹。
 
-4. Then copy the `root` folder to your home directory or other directory that you like. 复制 `root` 文件到个人目录或者其他你喜欢的目录。
+4. Copy the `root` folder to your home directory. 复制 `root` 文件到个人目录。
 
     ```shell
     $ mv root ~
