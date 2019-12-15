@@ -17,7 +17,7 @@ PROGRAMS = \
 
 CC = gcc
 CFLAGS=-I${HOME}/root/include/cslib -g -Wall -std=gnu11 -O3
-LDLIBS=-L${HOME}/root/lib -l:cslib.a -lm
+LDLIBS=-L${HOME}/root/lib -lcs -lm
 
 # ***************************************************************
 # Entry to bring the package up to date
