@@ -1,5 +1,5 @@
-# Makefile for cslib/standard directory
-# Last modified on Thu Oct 20 13:49:04 1994 by eroberts
+# Makefile for cslib directory
+# Last modified in December, 2019 by xuehao
 #****************************************************************
 
 OBJECTS = \
@@ -32,6 +32,7 @@ tidy:
 
 clean scratch: tidy
 	rm -f *.o *.a
+	rm -r root
 
 # ***************************************************************
 # C compilations
