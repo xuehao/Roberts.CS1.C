@@ -10,7 +10,7 @@ OBJECTS = \
     random.o \
     graphics.o
 
-CSLIB = cslib.a
+CSLIB = libcs.a
 
 CC = gcc
 CFLAGS = -g -I. $(CCFLAGS)
