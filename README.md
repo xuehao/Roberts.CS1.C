@@ -22,7 +22,7 @@ Library sources for the book, *The Art and Science of C*.
     $ make
     ```
 
-    If succeed, you'll find a folder call `root`. 如果成功，此时会生成一个 `root` 文件夹。
+    If succeed, you'll find a folder called `root`. 如果成功，此时会生成一个 `root` 文件夹。
 
 4. Copy the `root` folder to your home directory. 复制 `root` 文件到个人目录。
 
