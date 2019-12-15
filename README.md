@@ -34,10 +34,6 @@ Library sources for the book, *The Art and Science of C*.
 
 Using the general `Makefile` in the `test-cslib` folder to build the `house.c` program and to see how to connect the library. 使用 `test-cslib` 中的通用 `Makefile` 文件编译 `house.c` 测试程序，看看如何连接库文件。
 
-> Attention: remember to change the path in the Makefile to your folder name.
->
-> 注意：记得把 Makefile 中的路径改成你自己的文件名
-
 ```shell
 $ cd .. && cd test-cslib
 $ ls
