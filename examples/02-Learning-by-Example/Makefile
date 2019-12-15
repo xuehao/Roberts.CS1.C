@@ -9,7 +9,7 @@ PROGRAMS = \
     greeting \
     inchtocm \
     ave2f \
-    cmtofeet 
+    cmtofeet
 
 # ***************************************************************
 # Parameters to control Makefile operation
@@ -17,7 +17,7 @@ PROGRAMS = \
 
 CC = gcc
 CFLAGS=-I${HOME}/root/include/cslib -g -Wall -std=gnu11 -O3
-LDLIBS=${HOME}/root/lib/cslib.a -lm
+LDLIBS=-L${HOME}/root/lib -l:cslib.a -lm
 
 # ***************************************************************
 # Entry to bring the package up to date
