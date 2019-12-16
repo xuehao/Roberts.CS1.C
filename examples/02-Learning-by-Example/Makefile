@@ -1,5 +1,4 @@
-# Makefile for cbook/02-Learning-by-Example/programs
-# Created by the ExportAll facility
+# Makefile for 02-Learning-by-Example
 # ***************************************************************
 
 PROGRAMS = \
