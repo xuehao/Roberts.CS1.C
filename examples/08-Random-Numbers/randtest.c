@@ -28,7 +28,10 @@ main()
   printf("On this computer, RAND_MAX = %d.\n", RAND_MAX);
   printf("Here are the results of %d calls to rand:\n", NTrials);
 
-  /* Set a seed */
+  /* Set a seed
+   * -------------------
+   * If not set, the default seed is srand(1).
+   */
   srand((int)time(NULL));
 
   for (i = 0; i < NTrials; i++) {
