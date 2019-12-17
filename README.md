@@ -47,7 +47,7 @@ CFLAGS = -I${HOME}/root/include/cslib -g -Wall -std=gnu11 -O3
 LDLIBS = -L${HOME}/root/lib/ -lcs -lm
 ```
 
-Using the general `Makefile` in the `test-cslib` folder to build the `house.c` program and to see how to connect the library.
+Use the general `Makefile` in the `test-cslib` folder to build the `house.c` program and to see how to connect the library.
 
 使用 `test-cslib` 中的通用 `Makefile` 文件编译 `house.c` 测试程序，看看如何连接库文件。
 
