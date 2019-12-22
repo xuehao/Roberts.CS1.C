@@ -67,6 +67,6 @@ root:
 	rm *.o
 	mkdir root
 	mkdir root/include root/lib
-	mkdir root/include/cslib
-	cp *.h ./root/include/cslib
+	mkdir root/include/cs
+	cp *.h ./root/include/cs
 	mv $(CSLIB) root/lib
