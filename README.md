@@ -6,7 +6,7 @@ Library source code for the Eric Roberts texts, *The Art and Science of C: A Lib
 
 ## How to build the library? 如何编译库文件？
 
-Follow these steps to build a personal root system which don't need system permission and a static library called `libcs.a` for the upper two books.
+Follow these steps to build a personal root system, which don't need system permission, and generate a static library called `libcs.a` for the upper two books.
 
 按如下步骤，创建一个个人 `root` 系统（避免系统权限）以及两本书中用到的 `libcs.a` 静态库。
 
